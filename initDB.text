@@ -1,0 +1,7 @@
+use chat
+db.createCollection("users");
+db.users.insert({login: 'admin', password: 'admin'});
+db.users.insert({login: 'user1', password: '12345'});
+db.users.insert({login: 'casper', password: 'qwerty'});
+
+
